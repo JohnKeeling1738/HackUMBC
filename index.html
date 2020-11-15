@@ -12,59 +12,49 @@
 <body>
     
     <div class = "nav-container">
-        <div class = "wrapper">
             <nav>
                 <div class= "logo">
                     <img class = "logo" src="img/logo.png">
                 </div>
-                <ul class="nav-items">
-            
-                    <li>
-                        <input type="text" placeholder="Search">
-                        <a class="search" href="#">
-                            <img class = "searh-icon" src = "img/Vector.png"/>
-                        </a>
-                    </li>
-                </ul>
             </nav>
-        </div>
     </div>
 
     <div class = "sidebar">
-        <div class="wrapper">
+        <ul class = side-items>
+            <li>
+                <a class = "Dashboard" href="index.html">
+                    <img class = "Dashboard" src = "img/home-alt 1.png">
+                    Dashboard
+                </a>
+            </li>
+            <li>
+                <a class = "Data" href="data.html">
+                    <img class = "data" src="img/mdi_dashboard.png"/>
+                    Data
+                </a>
+            </li>
+            <li>
+                <a class = "about" href="aboutus.html">
+                    <img class = "about" src = "img/users-alt 1.png">
+                    About
+                </a>
+            </li>
 
-                <ul class = side-items>
-                    <li>
-                        <a class = "Dashboard" href="index.html">
-                            <img class = "Dashboard" src = "img/home-alt 1.png">
-                            Dashboard
-                        </a>
-                    </li>
-                    <li>
-                        <a class = "Data" href="data.html">
-                            <img class = "data" src="img/mdi_dashboard.png"/>
-                            Data
-                        </a>
-                    </li>
-                    <li>
-                        <a class = "about" href="aboutus.html">
-                            <img class = "about" src = "img/users-alt 1.png">
-                            About
-                        </a>
-                    </li>
+       </ul>
+
+    </div>
+
+    <div class = "header">
+            <div class = "transaction">
+                <a href= "transactions.csv"><img src="img/transaction-summary.png" alt=""></div></a>
+                <a href = "cards.csv"><img src="img/cards.png" alt=""></a>
+            </div>
+            
+
+    </div>
     
-               </ul>
-        </div>
-    </div>
-    <div class= "transaction-summary">
-        <a href="hackUMBC_cc_dataset_refined.csv">
-                <img class = "transaction-summary" src= "img/transaction-summary.png">
-        </a>
-    </div>
-    <div class= "cards">
-        <a href= "hackUMBC_MLPc_dataset_refined.csv">
-            <img class="cards" src="img/cards.png">
-        </a>
-    </div>
+
+
+    
 </body>
 </html>

@@ -60,6 +60,8 @@ nav .logo{
      margin-right: 16px;
  }
  
-  .header {
+ .header {
     overflow: hidden;
+    padding: 50px;
+
   }
