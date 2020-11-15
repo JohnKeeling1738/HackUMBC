@@ -76,20 +76,3 @@ nav .logo{
     color: #FFFFFF;
     text-decoration: none;
 }
-
-
-.transaction-summary{
-    position: relative;
-    top: -400px;
-    float: right;
-}
-
-.cards{
-    position: relative;
-    top: -400px;
-    float: right;
-}
-
-#footer .content p {
-    margin-bottom: 0
-}
