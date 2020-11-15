@@ -52,14 +52,15 @@ nav .logo{
     transition: .4s;
 
 }
- ul li :hover a{
-    padding-left: 50px;
+ ul li :hover{
+    padding-left: 20px;
  }
 
  .sidebar ul a i{
-     margin-right: 16px;
- }
- 
+    margin-right: 16px;
+}
+
+
  .header {
     overflow: hidden;
     padding: 50px;

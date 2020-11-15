@@ -52,7 +52,7 @@ nav .logo{
     transition: .4s;
 
 }
- ul li :hover a{
+ ul li :hover{
     padding-left: 50px;
  }
 
