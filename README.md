@@ -1,4 +1,4 @@
-# HackUMBC
+# HackUMBC Fall 2020
 **Multi-layer Perception Fraud Detection Tool**
 
 A tool that will improve the effectiveness of Financial Data Analyst by improving the accuracy for identifying fraud.
